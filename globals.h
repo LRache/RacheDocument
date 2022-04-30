@@ -8,7 +8,7 @@
 // #define CMAKE
 
 #ifdef CMAKE
-#define RESOURCE_PATH(name) "D://C++Project//RacheFile//resource//"#name
+#define RESOURCE_PATH(name) "//RacheFile//resource//"#name
 #else
 #define RESOURCE_PATH(name) ".//resource//"#name
 #endif
