@@ -1,0 +1,7 @@
+QLabel#SubFileViewerTitleLabel {font: 30px "Microsoft YaHei"}
+QLabel#GroupNameLabel {font-family: "Microsoft YaHei"; font-size: 20px; font-weight: bold}
+QToolButton[ViewerProperty="Item"]{width: 16px; height: 16px}
+QToolButton[ViewerProperty="Group"]{width: 24px; height: 24px}
+QToolButton[ViewerProperty="SubFile"]{width: 30px; height: 30px}
+QToolButton#ViewerSubFileListButton{width: 45px; height: 30px}
+QWidget#MainScrollArea {background-color: rgb(228,231, 236)}
