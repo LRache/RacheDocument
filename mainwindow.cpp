@@ -89,7 +89,7 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::initUI() {
-    setFixedSize(480, 640);
+    setFixedSize(400, 600);
     setCentralWidget(viewer);
     viewer->set_statusbar(statusBar());
     setWindowIcon(AppIcon);

@@ -1,14 +1,14 @@
-QLabel {font: 14px "Microsoft YaHei" }
-QPushButton {font: 14px "Microsoft YaHei"}
-QToolButton {font: 14px "Microsoft YaHei"}
-QLineEdit {font: 14px "Microsoft YaHei"}
-QPlainTextEdit {font: 14px "Microsoft YaHei"}
-QCheckBox {font: 14px "Microsoft YaHei"}
-QGroupBox {font: 14px "Microsoft YaHei"}
-QRadioButton {font: 14px "Microsoft YaHei"}
-QDateTimeEdit {font: 14px "Microsoft YaHei"}
-QHeaderView {font: 14px "Microsoft YaHei"}
-QComboBox {font: 14px "Microsoft YaHei"}
-QProgressBar {font: 14px "Microsoft YaHei"}
+QLabel {font: 8pt "Microsoft YaHei" }
+QPushButton {font: 8pt "Microsoft YaHei"}
+QToolButton {font: 8pt "Microsoft YaHei"}
+QLineEdit {font: 8pt "Microsoft YaHei"}
+QPlainTextEdit {font: 8pt "Microsoft YaHei"}
+QCheckBox {font: 8pt "Microsoft YaHei"}
+QGroupBox {font: 8pt "Microsoft YaHei"}
+QRadioButton {font: 8pt "Microsoft YaHei"}
+QDateTimeEdit {font: 8pt "Microsoft YaHei"}
+QHeaderView {font: 8pt "Microsoft YaHei"}
+QComboBox {font: 8pt "Microsoft YaHei"}
+QProgressBar {font: 8pt "Microsoft YaHei"}
 
-QLabel#ResourceViewerDialogNameLabel {font-family: "Microsoft YaHei"; font-weight: bold; font-style:noraml;font-size: 30px}
+QLabel#ResourceViewerDialogNameLabel {font-family: "Microsoft YaHei"; font-weight: bold; font-style:noraml;font-size: 30pt}
