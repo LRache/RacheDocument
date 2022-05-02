@@ -130,7 +130,7 @@ void load_translator(const QString& lang){
         translator = nullptr;
     }
     translator = new QTranslator;
-    translator->load(RESOURCE_PATH(language/RacheFile_)+lang+".qm");
+    translator->load("./language/RacheFile_"+lang+".qm");
     qApp->installTranslator(translator);
 }
 

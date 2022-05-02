@@ -1,1 +1,38 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>resource/stylesheet/application.txt</file>
+        <file>resource/stylesheet/fileitem_attention.txt</file>
+        <file>resource/stylesheet/fileitem_doubt.txt</file>
+        <file>resource/stylesheet/fileitem_normal.txt</file>
+        <file>resource/stylesheet/fileitem_warning.txt</file>
+        <file>resource/stylesheet/subfileviewer.txt</file>
+        <file>resource/icon/add.png</file>
+        <file>resource/icon/audio.png</file>
+        <file>resource/icon/close.png</file>
+        <file>resource/icon/copy.png</file>
+        <file>resource/icon/delete.png</file>
+        <file>resource/icon/document.png</file>
+        <file>resource/icon/down.png</file>
+        <file>resource/icon/edit.png</file>
+        <file>resource/icon/File.png</file>
+        <file>resource/icon/find.png</file>
+        <file>resource/icon/group.png</file>
+        <file>resource/icon/Icon.ico</file>
+        <file>resource/icon/image.png</file>
+        <file>resource/icon/link.png</file>
+        <file>resource/icon/list.png</file>
+        <file>resource/icon/new.png</file>
+        <file>resource/icon/other.png</file>
+        <file>resource/icon/paste.png</file>
+        <file>resource/icon/pause.png</file>
+        <file>resource/icon/pic.png</file>
+        <file>resource/icon/play.png</file>
+        <file>resource/icon/resource.png</file>
+        <file>resource/icon/save.png</file>
+        <file>resource/icon/setting.png</file>
+        <file>resource/icon/text.png</file>
+        <file>resource/icon/tree.png</file>
+        <file>resource/icon/up.png</file>
+        <file>resource/icon/video.png</file>
+    </qresource>
+</RCC>

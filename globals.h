@@ -8,7 +8,7 @@
 #ifdef _CMAKE
 #define RESOURCE_PATH(name) "D://C++Project//RacheFile//resource//"#name
 #else
-#define RESOURCE_PATH(name) ".//resource//"#name
+#define RESOURCE_PATH(name) ":/resource/"#name
 #endif
 
 #include <QString>

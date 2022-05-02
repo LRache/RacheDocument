@@ -11,4 +11,4 @@ QHeaderView {font: 8pt "Microsoft YaHei"}
 QComboBox {font: 8pt "Microsoft YaHei"}
 QProgressBar {font: 8pt "Microsoft YaHei"}
 
-QLabel#ResourceViewerDialogNameLabel {font-family: "Microsoft YaHei"; font-weight: bold; font-style:noraml;font-size: 30pt}
+QLabel#ResourceViewerDialogNameLabel {font-family: "Microsoft YaHei"; font-weight: bold; font-style:noraml;font-size: 20pt}
