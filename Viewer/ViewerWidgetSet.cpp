@@ -59,7 +59,7 @@ void ViewerItemWidget::fresh() {
                                                                        QString::number(item->month),
                                                                        QString::number(item->day)));
     textLabel->setWordWrap(true);
-    nameLabel->setFixedWidth(70);
+    nameLabel->setFixedWidth(50);
     nameLabel->setWordWrap(true);
 
     switch (item->type) {
