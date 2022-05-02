@@ -7,7 +7,10 @@
 
 int main(int argc, char *argv[])
 {
+    //qputenv("QT_ENABLE_HIGHDPI_SCALING", "1.5");
     QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
+    QGuiApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
+
     QApplication app(argc, argv);
     QDir::setCurrent(QApplication::applicationDirPath());
     QApplication::setStyle("fusion");
