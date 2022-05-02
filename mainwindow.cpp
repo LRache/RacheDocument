@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include "globals.h"
 
 #include "Dialog/Editor.h"
 #include "Dialog/FindDialog.h"

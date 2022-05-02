@@ -25,13 +25,13 @@ void StartUI::initUI() {
     newFileButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
     newFileButton->setText(tr("新建"));
     newFileButton->setIcon(qApp->style()->standardIcon(QStyle::SP_FileIcon));
-    newFileButton->setIconSize(QSize(32, 32));
+    newFileButton->setIconSize(QSize(16, 16));
     newFileButton->setShortcut(QKeySequence::New);
 
     openFileButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
     openFileButton->setText(tr("打开"));
     openFileButton->setIcon(qApp->style()->standardIcon(QStyle::SP_DialogOpenButton));
-    openFileButton->setIconSize(QSize(32, 32));
+    openFileButton->setIconSize(QSize(16, 16));
     openFileButton->setShortcut(QKeySequence::Open);
 
     auto *layout1 = new QVBoxLayout;
@@ -60,7 +60,7 @@ void StartUI::initUI() {
 
     setWindowTitle(tr("档案"));
     setWindowIcon(QIcon(RESOURCE_PATH(/icon/File.png)));
-    setFont(QFont("Microsoft YaHei", 12));
+    setFont(QFont("Microsoft YaHei", 6));
 }
 
 void StartUI::open_file() {
@@ -76,14 +76,14 @@ void StartUI::new_file() {
     bool ok;
     QString newName = QInputDialog::getText(this, tr("新建档案"), tr("输入档案名称"), QLineEdit::Normal, "", &ok);
     if (ok) {
-        FileDocument *newDocument = new FileDocument();
+        auto *newDocument = new FileDocument();
         newDocument->name = newName.toStdString();
         bool b;
         QString newSubName = QInputDialog::getText(this, tr("新建子文件"), tr("输入子文件名称"),
                                                    QLineEdit::Normal, "", &b);
         if (b) {
             newDocument->add_subfile(new SubFile(newSubName.toStdString()));
-            MainWindow *mainWindow = new MainWindow();
+            auto *mainWindow = new MainWindow();
             mainWindow->document = newDocument;
             mainWindow->viewer->set_fileDocument(newDocument);
             mainWindow->viewer->set_subfile(0);

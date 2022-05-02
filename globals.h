@@ -5,16 +5,11 @@
 #ifndef RACHEFILE_GLOBALS_H
 #define RACHEFILE_GLOBALS_H
 
-// #define CMAKE
-
-#ifdef CMAKE
-#define RESOURCE_PATH(name) "//RacheFile//resource//"#name
+#ifdef _CMAKE
+#define RESOURCE_PATH(name) "D://C++Project//RacheFile//resource//"#name
 #else
 #define RESOURCE_PATH(name) ".//resource//"#name
 #endif
-
-#define CSTR_to_QSTR(s) QString::fromUtf8(s.c_str())
-#define CSTRtoUTF8(s) QString::fromUtf8(s.c_str())
 
 #include <QString>
 #include <QIcon>

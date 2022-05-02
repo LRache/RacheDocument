@@ -7,6 +7,7 @@
 
 int main(int argc, char *argv[])
 {
+    QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
     QApplication app(argc, argv);
     QDir::setCurrent(QApplication::applicationDirPath());
     QApplication::setStyle("fusion");

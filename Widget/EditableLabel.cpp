@@ -7,7 +7,6 @@
 
 #include <QEvent>
 #include <QKeyEvent>
-#include <QScrollBar>
 
 #include "qdebug.h"
 
